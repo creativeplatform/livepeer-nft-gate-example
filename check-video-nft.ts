@@ -1,4 +1,4 @@
-import "isomorphic-fetch";
+import 'cross-fetch/polyfill';
 import { ethers, BigNumber } from "ethers";
 import * as standards from "./standards";
 import fs from "fs";
